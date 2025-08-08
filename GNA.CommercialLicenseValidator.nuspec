@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GNA.CommercialLicenseValidator</id>
+    <version>1.0.0</version>
+    <authors>Julian</authors>
+    <owners>Julian</owners>
+    <description>Commercial License Validator DLL for GNA software modules.</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/YourUsername/GNA_CommercialLicenseValidator</projectUrl>
+    <tags>GNA License Validator DLL</tags>
+  </metadata>
+  <files>
+    <file src="\\bin\\Release\\GNA_CommercialLicenseValidator.dll" target="\\lib\\netstandard2.0\\" />
+  </files>
+</package>

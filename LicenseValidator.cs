@@ -10,17 +10,20 @@ namespace GNA_CommercialLicenseValidator
 
         public static void ValidateLicense(string expectedSoftwareCode, string licenseCode)
         {
+            expectedSoftwareCode = expectedSoftwareCode.Trim();
+
             if (string.IsNullOrWhiteSpace(expectedSoftwareCode) || expectedSoftwareCode.Contains(" "))
             {
-                Console.WriteLine("Invalid software code.");
+                Console.WriteLine("\nInvalid software code.\nContact gna.geomatics@gmail.com to rectify.\n");
+                Console.ReadKey();
                 Environment.Exit(1);
             }
 
-            expectedSoftwareCode = expectedSoftwareCode.PadRight(6, '_');
 
             if (string.IsNullOrWhiteSpace(licenseCode) || licenseCode.Length != 16)
             {
-                Console.WriteLine("Invalid license code format.");
+                Console.WriteLine("\nInvalid license code format.\nContact gna.geomatics@gmail.com to rectify.\n");
+                Console.ReadKey();
                 Environment.Exit(1);
             }
 
@@ -32,13 +35,16 @@ namespace GNA_CommercialLicenseValidator
 
             if (!decodedSoftware.Equals(expectedSoftwareCode, StringComparison.Ordinal))
             {
-                Console.WriteLine("License software code mismatch. Application terminated.");
+                Console.WriteLine("\nLicense software code mismatch. Application terminated.\nContact gna.geomatics@gmail.com to rectify.\n");
+                Console.ReadKey();
                 Environment.Exit(1);
             }
 
             if (!DateTime.TryParseExact(decodedDate, "yyMMdd", null, System.Globalization.DateTimeStyles.None, out DateTime expiryDate))
             {
-                Console.WriteLine("Invalid expiry date in license code.");
+                Console.WriteLine("\nInvalid expiry date in license code.\nContact gna.geomatics@gmail.com to rectify.\n");
+
+                Console.ReadKey();  
                 Environment.Exit(1);
             }
 
@@ -46,14 +52,18 @@ namespace GNA_CommercialLicenseValidator
 
             if (expiryDate < today)
             {
-                Console.WriteLine($"License expired on {expiryDate:yyyy-MM-dd}. \nApplication with code {expectedSoftwareCode} terminated.\nContact gna.geomatics@gmail.com to renew.");
+                Console.WriteLine($"License expired on {expiryDate:yyyy-MM-dd}. \nApplication with code {expectedSoftwareCode} terminated.\nContact gna.geomatics@gmail.com to renew.\n");
+
+                Console.ReadKey();
                 Environment.Exit(1);
             }
 
             int daysRemaining = (expiryDate - today).Days;
             if (daysRemaining <= 5)
             {
-                Console.WriteLine($"License with code {expectedSoftwareCode} will expire in {daysRemaining} day(s) on {expiryDate:yyyy-MM-dd}.\nContact gna.geomatics@gmail.com to renew.");
+                Console.WriteLine($"License with code {expectedSoftwareCode} will expire in {daysRemaining} day(s) on {expiryDate:yyyy-MM-dd}.\nContact gna.geomatics@gmail.com to renew.\n");
+
+                Console.ReadKey();
             }
 
             // License valid
