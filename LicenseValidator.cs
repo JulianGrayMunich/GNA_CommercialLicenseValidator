@@ -3,6 +3,8 @@ using System.Text;
 
 using GNAgeneraltools;
 
+#pragma warning disable NU1510
+
 
 namespace GNA_CommercialLicenseValidator
 {
