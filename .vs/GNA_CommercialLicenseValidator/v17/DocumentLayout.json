@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|c:\\d_drive\\software_c#\\gna_commerciallicensevalidator\\gna_commerciallicensevalidator\\licensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|solutionrelative:licensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|c:\\d_drive\\software_c#\\gna_commerciallicensevalidator\\gna_commerciallicensevalidator\\gna_commerciallicensevalidator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|solutionrelative:gna_commerciallicensevalidator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|c:\\d_drive\\software_c#\\gna_commerciallicensevalidator\\gna_commerciallicensevalidator\\gna_commerciallicensevalidator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4959981F-9057-41F8-99C3-85DDCAB2F159}|GNA_CommercialLicenseValidator.csproj|solutionrelative:gna_commerciallicensevalidator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 687,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 891,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GNA_CommercialLicenseValidator",
+              "DocumentMoniker": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator.csproj",
+              "RelativeDocumentMoniker": "GNA_CommercialLicenseValidator.csproj",
+              "ToolTip": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator.csproj",
+              "RelativeToolTip": "GNA_CommercialLicenseValidator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-20T14:18:50.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GNA_CommercialLicenseValidator.csproj",
+              "DocumentMoniker": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator.csproj",
+              "RelativeDocumentMoniker": "GNA_CommercialLicenseValidator.csproj",
+              "ToolTip": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator.csproj",
+              "RelativeToolTip": "GNA_CommercialLicenseValidator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T16:25:21.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LicenseValidator.cs",
+              "DocumentMoniker": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\LicenseValidator.cs",
+              "RelativeDocumentMoniker": "LicenseValidator.cs",
+              "ToolTip": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\LicenseValidator.cs",
+              "RelativeToolTip": "LicenseValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T09:25:22.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
