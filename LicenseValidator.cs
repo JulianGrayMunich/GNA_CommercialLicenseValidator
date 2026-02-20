@@ -42,7 +42,7 @@ namespace GNA_CommercialLicenseValidator
 
             if (!decodedSoftware.Equals(expectedSoftwareCode, StringComparison.Ordinal))
             {
-                Console.WriteLine("\nLicense software code mismatch. Application terminated.\nContact gnajag2025@gmail.com to rectify.\n");
+                Console.WriteLine("\nLicense software code mismatch.\nContact gnajag2025@gmail.com to rectify.\n");
                 Console.ReadKey();
                 Environment.Exit(1);
             }
@@ -60,7 +60,6 @@ namespace GNA_CommercialLicenseValidator
             if (expiryDate < today)
             {
                 Console.WriteLine($"License expired on {expiryDate:yyyy-MM-dd}. \nApplication with code {expectedSoftwareCode} terminated.\nContact gnajag2025@gmail.com to renew.\n");
-
                 Console.ReadKey();
                 Environment.Exit(1);
             }

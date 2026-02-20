@@ -39,7 +39,7 @@
           }
         }
       },
-      "EASendMail/7.9.2.9": {
+      "EASendMail/7.9.3": {
         "type": "package",
         "dependencies": {
           "System.Security.Cryptography.Pkcs": "8.0.0"
@@ -55,7 +55,7 @@
           }
         }
       },
-      "EPPlus/8.4.1": {
+      "EPPlus/8.4.2": {
         "type": "package",
         "dependencies": {
           "EPPlus.Interfaces": "8.4.0",
@@ -1490,7 +1490,7 @@
           }
         }
       },
-      "Twilio/7.14.2": {
+      "Twilio/7.14.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "8.3.1",
@@ -1559,12 +1559,12 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "EASendMail": "7.9.2.9",
-          "EPPlus": "8.4.1",
+          "EASendMail": "7.9.3",
+          "EPPlus": "8.4.2",
           "SQLitePCLRaw.bundle_e_sqlite3": "3.0.2",
           "System.Configuration.ConfigurationManager": "10.0.2",
           "System.Drawing.Common": "10.0.2",
-          "Twilio": "7.14.2",
+          "Twilio": "7.14.3",
           "databaseAPI": "1.0.0",
           "gnaDataClasses": "1.0.0"
         },
@@ -1618,14 +1618,14 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "EASendMail/7.9.2.9": {
-      "sha512": "FKf2V0koinDEdSdg8PosYWCSs1gtcHTvY4nJb9anYF3GoyOZ267YpVGk6AUcg8wJUtzq50Q0WCCtWq9viusq+A==",
+    "EASendMail/7.9.3": {
+      "sha512": "lNNqZ4D1OB4ayocknMMkJ14Nb+xiWuQJkTH7M0HfZvyYQT8NhbQZFL6G6TQbZxeLC0y5bSEpLcXl6QGrKvYdyw==",
       "type": "package",
-      "path": "easendmail/7.9.2.9",
+      "path": "easendmail/7.9.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "easendmail.7.9.2.9.nupkg.sha512",
+        "easendmail.7.9.3.nupkg.sha512",
         "easendmail.nuspec",
         "lib/net20-cf/EASendMail.dll",
         "lib/net20/EASendMail.dll",
@@ -1645,15 +1645,15 @@
         "lib/netstandard2.0/EASendMail.dll"
       ]
     },
-    "EPPlus/8.4.1": {
-      "sha512": "6peduJ6RTriSg73/yaCqkzVbJ+3udvb1Dc5OkiBK2hjnYjGcRXFB5b1WTRfsaJfVWMAuR2qqOnU4Ry+mCakjKw==",
+    "EPPlus/8.4.2": {
+      "sha512": "tFvVPvNpn51NxtyGv7Hzg9nV+M33hX2Tq7tkaw3zxbQqIL8g99TfH0E6pli5huKLHLbntw+Q4nQYpu51YcQMpQ==",
       "type": "package",
-      "path": "epplus/8.4.1",
+      "path": "epplus/8.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EPPlusLogo.png",
-        "epplus.8.4.1.nupkg.sha512",
+        "epplus.8.4.2.nupkg.sha512",
         "epplus.nuspec",
         "lib/net10.0/EPPlus.dll",
         "lib/net10.0/EPPlus.xml",
@@ -4604,10 +4604,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Twilio/7.14.2": {
-      "sha512": "TcZqbowIodZlwC3r4IO0j8U/7vxU88U8Ycu6vy/xCdz4zw4NUSAM1U9R1URHLwHpkPZFC2drJwxdXRNypKgzOQ==",
+    "Twilio/7.14.3": {
+      "sha512": "vn0xDJCP1cNt3g+JWM7WxFL8sxzwAmcYs4hHJLVrHKPtzWnAKLbHYDOFx7B1KUzTTlOT5Iat+p1GI+2rwuNQYQ==",
       "type": "package",
-      "path": "twilio/7.14.2",
+      "path": "twilio/7.14.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4620,7 +4620,7 @@
         "lib/net6.0/Twilio.xml",
         "lib/netstandard2.1/Twilio.dll",
         "lib/netstandard2.1/Twilio.xml",
-        "twilio.7.14.2.nupkg.sha512",
+        "twilio.7.14.3.nupkg.sha512",
         "twilio.nuspec"
       ]
     },
@@ -4719,7 +4719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

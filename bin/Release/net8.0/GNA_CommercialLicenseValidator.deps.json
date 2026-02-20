@@ -40,18 +40,18 @@
           }
         }
       },
-      "EASendMail/7.9.2.9": {
+      "EASendMail/7.9.3": {
         "dependencies": {
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "runtime": {
           "lib/net8.0/EASendMail.dll": {
-            "assemblyVersion": "7.9.2.9",
-            "fileVersion": "7.9.2.9"
+            "assemblyVersion": "7.9.3.0",
+            "fileVersion": "7.9.3.0"
           }
         }
       },
-      "EPPlus/8.4.1": {
+      "EPPlus/8.4.2": {
         "dependencies": {
           "EPPlus.Interfaces": "8.4.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.1",
@@ -61,8 +61,8 @@
         },
         "runtime": {
           "lib/net8.0/EPPlus.dll": {
-            "assemblyVersion": "8.4.1.0",
-            "fileVersion": "8.4.1.0"
+            "assemblyVersion": "8.4.2.0",
+            "fileVersion": "8.4.2.0"
           }
         }
       },
@@ -801,7 +801,7 @@
           }
         }
       },
-      "Twilio/7.14.2": {
+      "Twilio/7.14.3": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "8.3.1",
           "Newtonsoft.Json": "13.0.1",
@@ -809,8 +809,8 @@
         },
         "runtime": {
           "lib/net6.0/Twilio.dll": {
-            "assemblyVersion": "7.14.2.0",
-            "fileVersion": "7.14.2.0"
+            "assemblyVersion": "7.14.3.0",
+            "fileVersion": "7.14.3.0"
           }
         }
       },
@@ -849,12 +849,12 @@
       },
       "GNAtools/1.0.0": {
         "dependencies": {
-          "EASendMail": "7.9.2.9",
-          "EPPlus": "8.4.1",
+          "EASendMail": "7.9.3",
+          "EPPlus": "8.4.2",
           "SQLitePCLRaw.bundle_e_sqlite3": "3.0.2",
           "System.Configuration.ConfigurationManager": "10.0.2",
           "System.Drawing.Common": "10.0.2",
-          "Twilio": "7.14.2",
+          "Twilio": "7.14.3",
           "databaseAPI": "1.0.0",
           "gnaDataClasses": "1.0.0"
         },
@@ -887,19 +887,19 @@
       "path": "azure.identity/1.14.2",
       "hashPath": "azure.identity.1.14.2.nupkg.sha512"
     },
-    "EASendMail/7.9.2.9": {
+    "EASendMail/7.9.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FKf2V0koinDEdSdg8PosYWCSs1gtcHTvY4nJb9anYF3GoyOZ267YpVGk6AUcg8wJUtzq50Q0WCCtWq9viusq+A==",
-      "path": "easendmail/7.9.2.9",
-      "hashPath": "easendmail.7.9.2.9.nupkg.sha512"
+      "sha512": "sha512-lNNqZ4D1OB4ayocknMMkJ14Nb+xiWuQJkTH7M0HfZvyYQT8NhbQZFL6G6TQbZxeLC0y5bSEpLcXl6QGrKvYdyw==",
+      "path": "easendmail/7.9.3",
+      "hashPath": "easendmail.7.9.3.nupkg.sha512"
     },
-    "EPPlus/8.4.1": {
+    "EPPlus/8.4.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6peduJ6RTriSg73/yaCqkzVbJ+3udvb1Dc5OkiBK2hjnYjGcRXFB5b1WTRfsaJfVWMAuR2qqOnU4Ry+mCakjKw==",
-      "path": "epplus/8.4.1",
-      "hashPath": "epplus.8.4.1.nupkg.sha512"
+      "sha512": "sha512-tFvVPvNpn51NxtyGv7Hzg9nV+M33hX2Tq7tkaw3zxbQqIL8g99TfH0E6pli5huKLHLbntw+Q4nQYpu51YcQMpQ==",
+      "path": "epplus/8.4.2",
+      "hashPath": "epplus.8.4.2.nupkg.sha512"
     },
     "EPPlus.Interfaces/8.4.0": {
       "type": "package",
@@ -1223,12 +1223,12 @@
       "path": "system.security.cryptography.xml/8.0.2",
       "hashPath": "system.security.cryptography.xml.8.0.2.nupkg.sha512"
     },
-    "Twilio/7.14.2": {
+    "Twilio/7.14.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TcZqbowIodZlwC3r4IO0j8U/7vxU88U8Ycu6vy/xCdz4zw4NUSAM1U9R1URHLwHpkPZFC2drJwxdXRNypKgzOQ==",
-      "path": "twilio/7.14.2",
-      "hashPath": "twilio.7.14.2.nupkg.sha512"
+      "sha512": "sha512-vn0xDJCP1cNt3g+JWM7WxFL8sxzwAmcYs4hHJLVrHKPtzWnAKLbHYDOFx7B1KUzTTlOT5Iat+p1GI+2rwuNQYQ==",
+      "path": "twilio/7.14.3",
+      "hashPath": "twilio.7.14.3.nupkg.sha512"
     },
     "databaseAPI/1.0.0": {
       "type": "project",

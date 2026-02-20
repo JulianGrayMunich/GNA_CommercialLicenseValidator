@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bAyOtmqQHGI=",
+  "dgSpecHash": "9x4jl98yFpU=",
   "success": true,
   "projectFilePath": "C:\\D_drive\\Software_C#\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator\\GNA_CommercialLicenseValidator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
-    "C:\\Users\\acer\\.nuget\\packages\\easendmail\\7.9.2.9\\easendmail.7.9.2.9.nupkg.sha512",
-    "C:\\Users\\acer\\.nuget\\packages\\epplus\\8.4.1\\epplus.8.4.1.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\easendmail\\7.9.3\\easendmail.7.9.3.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\epplus\\8.4.2\\epplus.8.4.2.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\epplus.interfaces\\8.4.0\\epplus.interfaces.8.4.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
@@ -82,7 +82,7 @@
     "C:\\Users\\acer\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\acer\\.nuget\\packages\\twilio\\7.14.2\\twilio.7.14.2.nupkg.sha512"
+    "C:\\Users\\acer\\.nuget\\packages\\twilio\\7.14.3\\twilio.7.14.3.nupkg.sha512"
   ],
   "logs": []
 }
