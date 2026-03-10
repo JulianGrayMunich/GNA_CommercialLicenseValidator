@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GNA_CommercialLicenseValidator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deb6e6a55406491644f5154d4c58acaeec49f2e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc03fc9dc3e38cb7e4475911e55b37db5e207094")]
 [assembly: System.Reflection.AssemblyProductAttribute("GNA_CommercialLicenseValidator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GNA_CommercialLicenseValidator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
