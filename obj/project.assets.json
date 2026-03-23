@@ -54,7 +54,7 @@
           }
         }
       },
-      "EPPlus/8.4.2": {
+      "EPPlus/8.5.0": {
         "type": "package",
         "dependencies": {
           "EPPlus.Interfaces": "8.4.0",
@@ -680,7 +680,7 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/10.0.2": {
+      "Microsoft.Win32.SystemEvents/10.0.4": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
@@ -967,11 +967,11 @@
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
         }
       },
-      "System.Configuration.ConfigurationManager/10.0.2": {
+      "System.Configuration.ConfigurationManager/10.0.4": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "10.0.2",
-          "System.Security.Cryptography.ProtectedData": "10.0.2"
+          "System.Diagnostics.EventLog": "10.0.4",
+          "System.Security.Cryptography.ProtectedData": "10.0.4"
         },
         "compile": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
@@ -1016,7 +1016,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Diagnostics.EventLog/10.0.2": {
+      "System.Diagnostics.EventLog/10.0.4": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
@@ -1042,10 +1042,10 @@
           }
         }
       },
-      "System.Drawing.Common/10.0.2": {
+      "System.Drawing.Common/10.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "10.0.2"
+          "Microsoft.Win32.SystemEvents": "10.0.4"
         },
         "compile": {
           "lib/net8.0/System.Drawing.Common.dll": {
@@ -1341,7 +1341,7 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/10.0.2": {
+      "System.Security.Cryptography.ProtectedData/10.0.4": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -1519,10 +1519,10 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EASendMail": "7.9.3",
-          "EPPlus": "8.4.2",
+          "EPPlus": "8.5.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "3.0.2",
-          "System.Configuration.ConfigurationManager": "10.0.2",
-          "System.Drawing.Common": "10.0.2",
+          "System.Configuration.ConfigurationManager": "10.0.4",
+          "System.Drawing.Common": "10.0.4",
           "Twilio": "7.14.3",
           "databaseAPI": "1.0.0",
           "gnaDataClasses": "1.0.0"
@@ -1604,15 +1604,15 @@
         "lib/netstandard2.0/EASendMail.dll"
       ]
     },
-    "EPPlus/8.4.2": {
-      "sha512": "tFvVPvNpn51NxtyGv7Hzg9nV+M33hX2Tq7tkaw3zxbQqIL8g99TfH0E6pli5huKLHLbntw+Q4nQYpu51YcQMpQ==",
+    "EPPlus/8.5.0": {
+      "sha512": "9VCtU/KD79APsDbqy7OnGCmW6hAdYuQRZGdxNRf+P/fLdygUGVVzGWedaaAuMTXxAfFEtGZjpKL3lyBJICoO7Q==",
       "type": "package",
-      "path": "epplus/8.4.2",
+      "path": "epplus/8.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EPPlusLogo.png",
-        "epplus.8.4.2.nupkg.sha512",
+        "epplus.8.5.0.nupkg.sha512",
         "epplus.nuspec",
         "lib/net10.0/EPPlus.dll",
         "lib/net10.0/EPPlus.xml",
@@ -2577,10 +2577,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/10.0.2": {
-      "sha512": "1G4BdeFwc8E95MpwtR7pO4rEh2YCG/o5gqcOszdQRGrWX1ayHTZtho3xPuYZTbBxKb/3kQHjL3b4nQeNGvbM9g==",
+    "Microsoft.Win32.SystemEvents/10.0.4": {
+      "sha512": "vrZD/q7cibjX1yGULXDnt0G2BXcMqvJ8+ZlggrDIexVjtd0vOJPqW8+I7Y6BwNHDLukge70h3BIZFxD7ccL/eQ==",
       "type": "package",
-      "path": "microsoft.win32.systemevents/10.0.2",
+      "path": "microsoft.win32.systemevents/10.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2601,7 +2601,7 @@
         "lib/net9.0/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.10.0.2.nupkg.sha512",
+        "microsoft.win32.systemevents.10.0.4.nupkg.sha512",
         "microsoft.win32.systemevents.nuspec",
         "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.xml",
@@ -2977,10 +2977,10 @@
         "system.collections.specialized.nuspec"
       ]
     },
-    "System.Configuration.ConfigurationManager/10.0.2": {
-      "sha512": "UpBPpVzF+xbB3GsBrraPvlYCwUiOhs+RLxnTMKLqDs2gNNaAtxQRlKjXfMV3zxE+hiQkGId5olZ+9tE6xXHdwQ==",
+    "System.Configuration.ConfigurationManager/10.0.4": {
+      "sha512": "4u3HLMYQqnTIF26VUiKhSuXtjFIvEfnwK9ZBUa4bXEc1koQCCkZx6ss5urKjqqimJMtuPHDKPHDchxkgoDNhjQ==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/10.0.2",
+      "path": "system.configuration.configurationmanager/10.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3001,7 +3001,7 @@
         "lib/net9.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.10.0.2.nupkg.sha512",
+        "system.configuration.configurationmanager.10.0.4.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3103,10 +3103,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.EventLog/10.0.2": {
-      "sha512": "TJPpTLF5MFPobq09c9BQ5X8QuviQfsKvH0Jbm7MkGylGvfIdRqJQLZDPC5sMRFkk9aZhmgir1NJKekip2NxfaA==",
+    "System.Diagnostics.EventLog/10.0.4": {
+      "sha512": "xXo5NcIPeMUMfpo9Efl/3Rgomjb/Jfa3Aa0BgSfqYctN4YpwjPzvIrnD9JTwoKqe3pFtLF9vmtMl892+wwZ6EA==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/10.0.2",
+      "path": "system.diagnostics.eventlog/10.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3136,15 +3136,15 @@
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.10.0.2.nupkg.sha512",
+        "system.diagnostics.eventlog.10.0.4.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Drawing.Common/10.0.2": {
-      "sha512": "nCq8jeGD4vWaUjX3nGaDMKYqfFPposw2f4KCFnuY5Rt3NhK6zMZ/c0a52a3TZK/nnkCJfyQMwb+POKwAnZexZw==",
+    "System.Drawing.Common/10.0.4": {
+      "sha512": "jaRxGZXTezDxIe18pgnnycQLsZjU6ueZ+lGsODhaX3CXZ13e1T3xbmTnY6CEC+zbsC60TyhRxy+iHk0bXmjMBg==",
       "type": "package",
-      "path": "system.drawing.common/10.0.2",
+      "path": "system.drawing.common/10.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3189,7 +3189,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.drawing.common.10.0.2.nupkg.sha512",
+        "system.drawing.common.10.0.4.nupkg.sha512",
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4119,10 +4119,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/10.0.2": {
-      "sha512": "me7W69hkjdu5EzHXCQSXv9OS3uAkMXT26oZuWTaabeoO5BPxSVuRVJ2FSfIW8xyGxBb6mKCE6ZKg7TLk3IzJBQ==",
+    "System.Security.Cryptography.ProtectedData/10.0.4": {
+      "sha512": "LmDnaYkcWkZSlZ07L7YcB6bH8sCiBZ7j28kPbYiXdF6f0iUiN7rxsRORlZGdj5saN/wZIqvF7lDBn/cpjU+e2g==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/10.0.2",
+      "path": "system.security.cryptography.protecteddata/10.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4149,7 +4149,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.security.cryptography.protecteddata.10.0.2.nupkg.sha512",
+        "system.security.cryptography.protecteddata.10.0.4.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4583,7 +4583,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -4604,7 +4604,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
