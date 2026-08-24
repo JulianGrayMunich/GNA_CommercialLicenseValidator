@@ -18,14 +18,14 @@
           }
         }
       },
-      "EPPlus/8.6.1": {
+      "EPPlus/8.6.3": {
         "type": "package",
         "dependencies": {
-          "EPPlus.Interfaces": "8.4.0",
+          "EPPlus.Interfaces": "8.6.2",
           "Microsoft.Extensions.Configuration.Json": "8.0.1",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
           "System.Security.Cryptography.Pkcs": "8.0.1",
-          "System.Security.Cryptography.Xml": "8.0.3"
+          "System.Security.Cryptography.Xml": "8.0.4"
         },
         "compile": {
           "lib/net8.0/EPPlus.dll": {
@@ -38,7 +38,7 @@
           }
         }
       },
-      "EPPlus.Interfaces/8.4.0": {
+      "EPPlus.Interfaces/8.6.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/EPPlus.Interfaces.dll": {}
@@ -600,7 +600,7 @@
           }
         }
       },
-      "Microsoft.Win32.Registry.AccessControl/10.0.9": {
+      "Microsoft.Win32.Registry.AccessControl/10.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Win32.Registry.AccessControl.dll": {
@@ -622,7 +622,7 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/10.0.9": {
+      "Microsoft.Win32.SystemEvents/10.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
@@ -672,7 +672,7 @@
           }
         }
       },
-      "SourceGear.sqlite3/3.50.4.5": {
+      "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -720,61 +720,113 @@
             "assetType": "native",
             "rid": "iossimulator-x64"
           },
-          "runtimes/iossimulator-x86/native/e_sqlite3.a": {
+          "runtimes/linux-arm/native/libe_sqlite3.a": {
             "assetType": "native",
-            "rid": "iossimulator-x86"
+            "rid": "linux-arm"
           },
           "runtimes/linux-arm/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-arm"
           },
+          "runtimes/linux-arm64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
           "runtimes/linux-arm64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-armel"
           },
           "runtimes/linux-armel/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-armel"
           },
+          "runtimes/linux-mips64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-mips64"
+          },
           "runtimes/linux-mips64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-mips64"
+          },
+          "runtimes/linux-musl-arm/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-musl-arm"
           },
           "runtimes/linux-musl-arm/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-arm"
           },
+          "runtimes/linux-musl-arm64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-musl-arm64"
+          },
           "runtimes/linux-musl-arm64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-riscv64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-musl-riscv64"
           },
           "runtimes/linux-musl-riscv64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-riscv64"
           },
+          "runtimes/linux-musl-s390x/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-musl-s390x"
+          },
           "runtimes/linux-musl-s390x/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-s390x"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
           },
           "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-musl-x64"
           },
+          "runtimes/linux-ppc64le/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-ppc64le"
+          },
           "runtimes/linux-ppc64le/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-ppc64le"
+          },
+          "runtimes/linux-riscv64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-riscv64"
           },
           "runtimes/linux-riscv64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-riscv64"
           },
+          "runtimes/linux-s390x/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-s390x"
+          },
           "runtimes/linux-s390x/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-s390x"
           },
+          "runtimes/linux-x64/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
           "runtimes/linux-x64/native/libe_sqlite3.so": {
             "assetType": "native",
             "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.a": {
+            "assetType": "native",
+            "rid": "linux-x86"
           },
           "runtimes/linux-x86/native/libe_sqlite3.so": {
             "assetType": "native",
@@ -810,17 +862,17 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_e_sqlite3/3.0.3": {
+      "SQLitePCLRaw.bundle_e_sqlite3/3.0.4": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.config.e_sqlite3": "3.0.3",
-          "SourceGear.sqlite3": "3.50.4.5"
+          "SQLitePCLRaw.config.e_sqlite3": "3.0.4",
+          "SourceGear.sqlite3": "3.53.3"
         }
       },
-      "SQLitePCLRaw.config.e_sqlite3/3.0.3": {
+      "SQLitePCLRaw.config.e_sqlite3/3.0.4": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.e_sqlite3": "3.0.3"
+          "SQLitePCLRaw.provider.e_sqlite3": "3.0.4"
         },
         "compile": {
           "lib/net8.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -829,7 +881,7 @@
           "lib/net8.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/3.0.3": {
+      "SQLitePCLRaw.core/3.0.4": {
         "type": "package",
         "compile": {
           "lib/net8.0/SQLitePCLRaw.core.dll": {}
@@ -838,10 +890,10 @@
           "lib/net8.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/3.0.3": {
+      "SQLitePCLRaw.provider.e_sqlite3/3.0.4": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "3.0.3"
+          "SQLitePCLRaw.core": "3.0.4"
         },
         "compile": {
           "lib/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -889,11 +941,11 @@
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
         }
       },
-      "System.Configuration.ConfigurationManager/10.0.9": {
+      "System.Configuration.ConfigurationManager/10.0.10": {
         "type": "package",
         "dependencies": {
-          "System.Diagnostics.EventLog": "10.0.9",
-          "System.Security.Cryptography.ProtectedData": "10.0.9"
+          "System.Diagnostics.EventLog": "10.0.10",
+          "System.Security.Cryptography.ProtectedData": "10.0.10"
         },
         "compile": {
           "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
@@ -922,7 +974,7 @@
           }
         }
       },
-      "System.Diagnostics.EventLog/10.0.9": {
+      "System.Diagnostics.EventLog/10.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
@@ -948,10 +1000,10 @@
           }
         }
       },
-      "System.Drawing.Common/10.0.9": {
+      "System.Drawing.Common/10.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "10.0.9"
+          "Microsoft.Win32.SystemEvents": "10.0.10"
         },
         "compile": {
           "lib/net8.0/System.Drawing.Common.dll": {
@@ -1222,7 +1274,7 @@
           }
         }
       },
-      "System.Security.Cryptography.ProtectedData/10.0.9": {
+      "System.Security.Cryptography.ProtectedData/10.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
@@ -1238,7 +1290,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Security.Cryptography.Xml/8.0.3": {
+      "System.Security.Cryptography.Xml/8.0.4": {
         "type": "package",
         "dependencies": {
           "System.Security.Cryptography.Pkcs": "8.0.1"
@@ -1372,7 +1424,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0",
-          "Microsoft.Win32.Registry.AccessControl": "10.0.9",
+          "Microsoft.Win32.Registry.AccessControl": "10.0.10",
           "NETStandard.Library": "2.0.3",
           "System.IO": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
@@ -1391,10 +1443,10 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EASendMail": "7.9.3",
-          "EPPlus": "8.6.1",
-          "SQLitePCLRaw.bundle_e_sqlite3": "3.0.3",
-          "System.Configuration.ConfigurationManager": "10.0.9",
-          "System.Drawing.Common": "10.0.9",
+          "EPPlus": "8.6.3",
+          "SQLitePCLRaw.bundle_e_sqlite3": "3.0.4",
+          "System.Configuration.ConfigurationManager": "10.0.10",
+          "System.Drawing.Common": "10.0.10",
           "Twilio": "7.14.9",
           "databaseAPI": "1.0.0",
           "gnaDataClasses": "1.0.0"
@@ -1436,15 +1488,15 @@
         "lib/netstandard2.0/EASendMail.dll"
       ]
     },
-    "EPPlus/8.6.1": {
-      "sha512": "ialCJVbku7pQ6Cf2qcdgVkynEkpdkx+6ryGpAu2n3Jlra//HY+0Fp54OM7ELRCE71id5qk55q3SMZgPGW1Pbbw==",
+    "EPPlus/8.6.3": {
+      "sha512": "/IcP3A26oHjDDR3ud2HR6klrmX5AjzywF2lmaRQPtNcYz3n6BxhuMfhfoeoKVMSgF5sFBRGMxZ5yNhJFMy23HA==",
       "type": "package",
-      "path": "epplus/8.6.1",
+      "path": "epplus/8.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EPPlusLogo.png",
-        "epplus.8.6.1.nupkg.sha512",
+        "epplus.8.6.3.nupkg.sha512",
         "epplus.nuspec",
         "lib/net10.0/EPPlus.dll",
         "lib/net10.0/EPPlus.xml",
@@ -1465,15 +1517,15 @@
         "readme.txt"
       ]
     },
-    "EPPlus.Interfaces/8.4.0": {
-      "sha512": "QaEzDFG2vcQMPqUmoWv0vBTObtH8hffQmyDr2WkqRYF/nFSn2pkdBB4vudcd/EIv0N8M3P1fzzkPQgEWsFnUmA==",
+    "EPPlus.Interfaces/8.6.2": {
+      "sha512": "Xl1ncbV84UCz7QxcHuWjGa6PKXnOTwbC+y2ZdDqe5Zt5MbozWQINOwchcKW+agqx9Rybl2SQ3GdN1fbPIbjVOA==",
       "type": "package",
-      "path": "epplus.interfaces/8.4.0",
+      "path": "epplus.interfaces/8.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "EPPlusLogo.png",
-        "epplus.interfaces.8.4.0.nupkg.sha512",
+        "epplus.interfaces.8.6.2.nupkg.sha512",
         "epplus.interfaces.nuspec",
         "lib/net10.0/EPPlus.Interfaces.dll",
         "lib/net35/EPPlus.Interfaces.dll",
@@ -2352,10 +2404,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Win32.Registry.AccessControl/10.0.9": {
-      "sha512": "4v+HrZR7f3Fg1sLaofEx5EBjZcfSgv6OaBX6Dx2UycLNrFLv4etB6YNRpXprqPdni394O7vTGGXfl80CgFaVZA==",
+    "Microsoft.Win32.Registry.AccessControl/10.0.10": {
+      "sha512": "dftqoImZZZoVwfn8++PXf077Y2tadUGP0zW4neynefNwhHX5lXHTsaI4bljPQYQAhoCVAbHOMsp1c66l9lVP7Q==",
       "type": "package",
-      "path": "microsoft.win32.registry.accesscontrol/10.0.9",
+      "path": "microsoft.win32.registry.accesscontrol/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2376,7 +2428,7 @@
         "lib/net9.0/Microsoft.Win32.Registry.AccessControl.xml",
         "lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll",
         "lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.xml",
-        "microsoft.win32.registry.accesscontrol.10.0.9.nupkg.sha512",
+        "microsoft.win32.registry.accesscontrol.10.0.10.nupkg.sha512",
         "microsoft.win32.registry.accesscontrol.nuspec",
         "runtimes/win/lib/net10.0/Microsoft.Win32.Registry.AccessControl.dll",
         "runtimes/win/lib/net10.0/Microsoft.Win32.Registry.AccessControl.xml",
@@ -2387,10 +2439,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/10.0.9": {
-      "sha512": "dk5HKolAR9bBxlL4dl6Koaf0s/Q47QApog+/o341LSuvWGW6ig4q5fTsgYG0MrK//l2Slv6mygncMK/8lgXVDg==",
+    "Microsoft.Win32.SystemEvents/10.0.10": {
+      "sha512": "IY0lTfC2uVwTizjtGgQ03ViwyXGQ9lMDblzB889/HyguAZJ2J8pRrjPown8h2eJe8WFc8nh+BUEsEPkshzizYQ==",
       "type": "package",
-      "path": "microsoft.win32.systemevents/10.0.9",
+      "path": "microsoft.win32.systemevents/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2411,7 +2463,7 @@
         "lib/net9.0/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.10.0.9.nupkg.sha512",
+        "microsoft.win32.systemevents.10.0.10.nupkg.sha512",
         "microsoft.win32.systemevents.nuspec",
         "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.xml",
@@ -2578,10 +2630,10 @@
         "packageIcon.png"
       ]
     },
-    "SourceGear.sqlite3/3.50.4.5": {
-      "sha512": "UtnipXhJYZKQOQIfpws/msLK7IRhMplE1CZCaZLIQXRnGD474QVpO/J9nMlQQY8NZueGz1aidjoxDRnrC1NT3Q==",
+    "SourceGear.sqlite3/3.53.3": {
+      "sha512": "PaDT7JwQ00HmXZT1xSGSC0c24A5lVpJYHMrXBuJATdpB2t0nf4Kq9HyPaZhxVW0elPq4XI1s5BLh7qLuObmzFA==",
       "type": "package",
-      "path": "sourcegear.sqlite3/3.50.4.5",
+      "path": "sourcegear.sqlite3/3.53.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2605,20 +2657,33 @@
         "runtimes/ios-arm64/native/e_sqlite3.a",
         "runtimes/iossimulator-arm64/native/e_sqlite3.a",
         "runtimes/iossimulator-x64/native/e_sqlite3.a",
-        "runtimes/iossimulator-x86/native/e_sqlite3.a",
+        "runtimes/linux-arm/native/libe_sqlite3.a",
         "runtimes/linux-arm/native/libe_sqlite3.so",
+        "runtimes/linux-arm64/native/libe_sqlite3.a",
         "runtimes/linux-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-armel/native/libe_sqlite3.a",
         "runtimes/linux-armel/native/libe_sqlite3.so",
+        "runtimes/linux-mips64/native/libe_sqlite3.a",
         "runtimes/linux-mips64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm/native/libe_sqlite3.a",
         "runtimes/linux-musl-arm/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm64/native/libe_sqlite3.a",
         "runtimes/linux-musl-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-riscv64/native/libe_sqlite3.a",
         "runtimes/linux-musl-riscv64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-s390x/native/libe_sqlite3.a",
         "runtimes/linux-musl-s390x/native/libe_sqlite3.so",
+        "runtimes/linux-musl-x64/native/libe_sqlite3.a",
         "runtimes/linux-musl-x64/native/libe_sqlite3.so",
+        "runtimes/linux-ppc64le/native/libe_sqlite3.a",
         "runtimes/linux-ppc64le/native/libe_sqlite3.so",
+        "runtimes/linux-riscv64/native/libe_sqlite3.a",
         "runtimes/linux-riscv64/native/libe_sqlite3.so",
+        "runtimes/linux-s390x/native/libe_sqlite3.a",
         "runtimes/linux-s390x/native/libe_sqlite3.so",
+        "runtimes/linux-x64/native/libe_sqlite3.a",
         "runtimes/linux-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x86/native/libe_sqlite3.a",
         "runtimes/linux-x86/native/libe_sqlite3.so",
         "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib",
         "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib",
@@ -2627,26 +2692,26 @@
         "runtimes/win-arm64/native/e_sqlite3.dll",
         "runtimes/win-x64/native/e_sqlite3.dll",
         "runtimes/win-x86/native/e_sqlite3.dll",
-        "sourcegear.sqlite3.3.50.4.5.nupkg.sha512",
+        "sourcegear.sqlite3.3.53.3.nupkg.sha512",
         "sourcegear.sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_e_sqlite3/3.0.3": {
-      "sha512": "Zt8jmSL5zcDWGk8rmzhWBJ6IRyLWh1yWS04Pg72+GIvo3Ba4E/rG4Y/4l7AWlSEogEbzyKRTCXUAs1v/O7Pkkg==",
+    "SQLitePCLRaw.bundle_e_sqlite3/3.0.4": {
+      "sha512": "gg8vENKV/o0pWLI0eJxnTA4X9e63rOvzkCDMAOePDGLieNSHPCGUiJ4CQDqDyNqIf6IPVzD4TOjqY5ACygZkkA==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/3.0.3",
+      "path": "sqlitepclraw.bundle_e_sqlite3/3.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "sqlitepclraw.bundle_e_sqlite3.3.0.3.nupkg.sha512",
+        "sqlitepclraw.bundle_e_sqlite3.3.0.4.nupkg.sha512",
         "sqlitepclraw.bundle_e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.config.e_sqlite3/3.0.3": {
-      "sha512": "caP/ap0X2fyVmstCXu5ueOmcr2XWAxA2XyKghV7H4bOAFmq3nWcsGl9q44iY1HYG+i8Qr4G9XEqdfti0rV6/ZQ==",
+    "SQLitePCLRaw.config.e_sqlite3/3.0.4": {
+      "sha512": "W2HMmjAZ1v27fbyzZtONCdC8Ma/tTr5wLAIr4Iq7T4oKrYaI4occJ5TBhSdK4pltwBJLQBG5DcQMz+/w9X4bbg==",
       "type": "package",
-      "path": "sqlitepclraw.config.e_sqlite3/3.0.3",
+      "path": "sqlitepclraw.config.e_sqlite3/3.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2657,28 +2722,28 @@
         "lib/net471/SQLitePCLRaw.batteries_v2.dll",
         "lib/net8.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.config.e_sqlite3.3.0.3.nupkg.sha512",
+        "sqlitepclraw.config.e_sqlite3.3.0.4.nupkg.sha512",
         "sqlitepclraw.config.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/3.0.3": {
-      "sha512": "bjm6FY4lZyP+t7GmiuvSM0QXpFihAvyE0Y9O2yibm3g95AAWJPNnHOKVNJGyPTGIKuK7Pr4Wh8Rd8/aOtAclQw==",
+    "SQLitePCLRaw.core/3.0.4": {
+      "sha512": "cOjxfdjE4zQDvDVDUBfucKGXEaYos4l4l+TVwePJEHp/nl9fkgBz/lIVgfMH5dOyKRmNi6RsptUGtZsvsD7iYQ==",
       "type": "package",
-      "path": "sqlitepclraw.core/3.0.3",
+      "path": "sqlitepclraw.core/3.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net8.0/SQLitePCLRaw.core.dll",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.3.0.3.nupkg.sha512",
+        "sqlitepclraw.core.3.0.4.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/3.0.3": {
-      "sha512": "wd+fGvZTrr3BJNe48opSczmC176Okd61ZgoZNQcdvZwkek6to978ccdpcFmNo5GHxCnk29KwT+f+lAZYgfLVZg==",
+    "SQLitePCLRaw.provider.e_sqlite3/3.0.4": {
+      "sha512": "L4uiEKeRSXxppkGE4iSpgBgC5lNvw2zEN/hAaxTecUS1+DhC6UEFhHaakSYYvnFq7x16B7DQcaXgXy0SkhSwnw==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/3.0.3",
+      "path": "sqlitepclraw.provider.e_sqlite3/3.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2686,7 +2751,7 @@
         "lib/net8.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.3.0.3.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.3.0.4.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
@@ -2768,10 +2833,10 @@
         "system.collections.specialized.nuspec"
       ]
     },
-    "System.Configuration.ConfigurationManager/10.0.9": {
-      "sha512": "k7kYSTmNjwFYKdUju+rjYyigbcUBj1sElR3ayqszcatPXL9YJoBANJN48xctdXTopYf3ceFX2T4m1xvJRM+CGA==",
+    "System.Configuration.ConfigurationManager/10.0.10": {
+      "sha512": "64jtHt9yLYi6VHMF5AwDj6BGM/MZrygv55SXl0MOIkFsFjGwRuxV3/QgEm7NTp3TQIx+YNX4S6dNpY08fJ3+3g==",
       "type": "package",
-      "path": "system.configuration.configurationmanager/10.0.9",
+      "path": "system.configuration.configurationmanager/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2792,7 +2857,7 @@
         "lib/net9.0/System.Configuration.ConfigurationManager.xml",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
         "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
-        "system.configuration.configurationmanager.10.0.9.nupkg.sha512",
+        "system.configuration.configurationmanager.10.0.10.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2865,10 +2930,10 @@
         "system.diagnostics.debug.nuspec"
       ]
     },
-    "System.Diagnostics.EventLog/10.0.9": {
-      "sha512": "s2PcxHK4IYQ6gmD3VSBkym9tWGkFisKjcjWBdl7a+n4Yy66ae4beJ1ZdjDp060SSll4W3Rt4H2LW87dWckv+QQ==",
+    "System.Diagnostics.EventLog/10.0.10": {
+      "sha512": "OvGz3PrzuAI/Sj7LTcXcCe3FClRI1IyRMZjNONcZtFh+Ww7nAtSh4kh08r8KVe/xxkXJPjR0Y1jF7H+N42d4xQ==",
       "type": "package",
-      "path": "system.diagnostics.eventlog/10.0.9",
+      "path": "system.diagnostics.eventlog/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2898,15 +2963,15 @@
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll",
         "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.xml",
-        "system.diagnostics.eventlog.10.0.9.nupkg.sha512",
+        "system.diagnostics.eventlog.10.0.10.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Drawing.Common/10.0.9": {
-      "sha512": "ShkEj8jOhklJgrN3SoaVbCcopvqyIgVXHso2/eibQBL7IZxzJjND77UYVlViHqpwPxyQeA67IOut4b41clBkQw==",
+    "System.Drawing.Common/10.0.10": {
+      "sha512": "R9q9TI//kGavXWTxvaSS9ERj79s+Vm7V7769zEmRbzdrIOJzAnGw+wWSo/JkaVdQfAAefV2V1bWYKCHF7Zs5oQ==",
       "type": "package",
-      "path": "system.drawing.common/10.0.9",
+      "path": "system.drawing.common/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2951,7 +3016,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.drawing.common.10.0.9.nupkg.sha512",
+        "system.drawing.common.10.0.10.nupkg.sha512",
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3832,10 +3897,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.ProtectedData/10.0.9": {
-      "sha512": "vXp+vBQbTkMrDzUiPCxo1KvzfaAvZWuSRS2P7e5orhtV7ZuePKAB3Cqc9dH2YHUavRJyA2uWd2yrL6hl2VoJ5g==",
+    "System.Security.Cryptography.ProtectedData/10.0.10": {
+      "sha512": "BKt0SQgq2lq3ESE68jkeLwv95ypANrPDtkTOIFGcnhg2aRUeUUBDrQlkVDZctrg1WenVcvn5P5XZnuYI7q6rFQ==",
       "type": "package",
-      "path": "system.security.cryptography.protecteddata/10.0.9",
+      "path": "system.security.cryptography.protecteddata/10.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3862,15 +3927,15 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "system.security.cryptography.protecteddata.10.0.9.nupkg.sha512",
+        "system.security.cryptography.protecteddata.10.0.10.nupkg.sha512",
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Xml/8.0.3": {
-      "sha512": "1cHAWDYwOyyoRy+nxS7/Ro/Zcio6i5yHoIJ6xUA+fU8lNu4yGQgja5dEovAxBVud3RnfwRVWOl0B2vr+9LP/mg==",
+    "System.Security.Cryptography.Xml/8.0.4": {
+      "sha512": "1y+ROEEmEOACrQWqRi37GkGHOThPc31m7vezOySpPE9xXN2nTN6ndLYjylvy42aCtQq4owlYhcqaKpQKMDFKFg==",
       "type": "package",
-      "path": "system.security.cryptography.xml/8.0.3",
+      "path": "system.security.cryptography.xml/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3891,7 +3956,7 @@
         "lib/net8.0/System.Security.Cryptography.Xml.xml",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
-        "system.security.cryptography.xml.8.0.3.nupkg.sha512",
+        "system.security.cryptography.xml.8.0.4.nupkg.sha512",
         "system.security.cryptography.xml.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4253,7 +4318,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
@@ -4275,7 +4340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
